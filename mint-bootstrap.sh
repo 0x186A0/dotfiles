@@ -48,4 +48,13 @@ make bin # for hidapi
 # make bin LIB=libusb # for libusb
 sudo make install
 
+# Neovim
+
+# Prerequisites
+sudo apt-get -y install ninja-build gettext cmake unzip curl
+git clone https://github.com/neovim/neovim
+cd neovim/
+make CMAKE_BUILD_TYPE=RelWithDebInfo
+sudo make install
+
 
