@@ -10,8 +10,8 @@ rustup override set stable
 rustup update stable
 
 
-mkdir App/
-cd App/
+mkdir ~/App/
+cd ~/App/
 
 
 # Alacritty
