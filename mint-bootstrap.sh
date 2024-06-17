@@ -60,4 +60,6 @@ sudo add-apt-repository ppa:ondrej/php -y
 sudo apt update -y
 sudo apt -y install php8.3
 sudo apt install php8.3-{xdebug,cli,pdo,mysql,pgsql,zip,gd,mbstring,curl,xml,bcmath,common} -y
-
+# Composer
+php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
+sudo php composer-setup.php --install-dir=/usr/local/bin --filename=composer
