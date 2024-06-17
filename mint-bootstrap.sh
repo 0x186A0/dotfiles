@@ -38,7 +38,7 @@ sudo cp extra/logo/alacritty-term.svg /usr/share/pixmaps/Alacritty.svg
 sudo desktop-file-install extra/linux/Alacritty.desktop
 sudo update-desktop-database
 
-cd ~/App
+cd ~/App/
 
 # LED for Logitech keyboard
 sudo apt-get install  -y g++ make libhidapi-dev
@@ -47,6 +47,9 @@ cd g810-led
 make bin # for hidapi
 # make bin LIB=libusb # for libusb
 sudo make install
+
+
+cd ~/App/
 
 # Neovim
 sudo apt-get -y install ninja-build gettext cmake unzip curl
