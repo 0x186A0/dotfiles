@@ -66,3 +66,4 @@ sudo apt install php8.3-{xdebug,cli,pdo,mysql,pgsql,zip,gd,mbstring,curl,xml,bcm
 # Composer
 php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
 sudo php composer-setup.php --install-dir=/usr/local/bin --filename=composer
+rm composer-setup.php
